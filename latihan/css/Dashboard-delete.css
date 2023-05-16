@@ -1,0 +1,377 @@
+.navbar{
+    margin: 40px 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.judul1{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 28px;
+line-height: 100%;
+/* identical to box height, or 28px */
+
+display: flex;
+align-items: center;
+letter-spacing: 0.04em;
+
+color: #3B3949;
+}
+.judul1 span{
+    color:#FF5F26;
+    ;
+}
+
+
+.judul2{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    border-radius: 1px;
+    width: 850px;
+    margin: auto;
+    
+    background: #FFFFFF;
+box-shadow: 0px 16px 90px rgba(19, 7, 52, 0.08);
+border-radius: 12px;   
+}
+.colom1 div{
+padding: 5px;
+}
+.sidebar1{
+ display: flex;
+ justify-content:space-between;
+ width: 800px;
+ padding-top: 10px;
+}
+
+.colom1 .mytasks{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 100%;
+display: flex;
+align-items: center;
+letter-spacing: 1px;
+color: #FF5F26;
+}
+.colom1 .todolist{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 100%;
+
+display: flex;
+align-items: center;
+color: #293038;
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+.colom1 .harianSaya{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 100%;
+display: flex;
+align-items: center;
+color: #7A7F83;
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+.sidebar1 {
+    align-items: center;
+}
+
+.sidebar2{
+    display: flex;
+    justify-content: space-between;
+    width: 800px;
+    padding-top: 29px;
+}
+.sidebar2 .sortBy{
+Font-family: Poppins;
+Font-size: 16px;
+color:#7A7F83;
+}
+.sidebar2 .tanggal{
+    margin-top: -10px;
+}
+
+.sidebar3 .satu {
+    display: flex;
+    justify-content: space-between;
+    width: 800px;
+    align-items: center;
+}
+.sidebar3 .designTeam {
+    width: 179px;
+    height: 14px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 100%;
+    display: flex;
+    align-items: center;
+    color: #7A7F83;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    padding: 10px;
+    padding-left: 40px;
+}
+.sidebar3 .satu .content2,.content3{
+    margin-left: -560px;
+    padding-left: -100px;
+}
+
+.sidebar4 .dua{
+    display: flex;
+    justify-content: space-between;
+    width: 800px;
+    align-items: center;
+    padding-top: 20px;
+}
+.sidebar4 .content6{
+
+Font-style:Medium;
+Font-size: 18px;
+Line-height: 18px;
+Line-height: 100%;
+
+}
+.sidebar4 .content6 , .content7 {
+    margin-left: -550px;
+    padding-left: 20px;
+ 
+}
+
+.sidebar5 .tiga{
+    display: flex;
+    justify-content: space-between;
+    width: 800px;
+    align-items: center;
+}
+.tiga .content10{
+    
+Font-style: Medium;
+Font-size: 18px;
+Line-height: 18px;
+Line-height: 100%;
+
+}
+.sidebar5 .content10 , .content11{
+    margin-left: -530px;
+    padding-left: 110px;
+}
+
+.footbar{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+.footbar .footbarMain{
+padding-left: 10px;
+}
+.container-baru{
+    background: #F5F5F5;
+    border-radius: 8px;
+    width: 820px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+.judul-satu{
+ display: flex;
+ justify-content: space-between;
+ width: 820px;
+ padding: 20px;
+}
+.judul-satu .content-satu{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 100%;
+    display: flex;
+    align-items: center;
+    color: #293038;
+}
+.main-satu,.main-dua,.main-tiga,.main-empat{
+    display: flex;
+    justify-content: space-between;
+    width: 820px;
+    padding: 20px;
+    margin-top: -40px;
+
+}
+.main-satu .icon-satu img{
+    width:32px;
+    height: 32px;
+}
+.main-satu p{
+    margin-left: -600px;
+    margin-top: 5px;
+    text-decoration: line-through;
+}
+.main-dua p{
+    margin-left: -557px;
+    margin-top: 5px;
+}
+.main-tiga p{
+    margin-left: -557px;
+    margin-top: 5px;
+}
+.main-empat p{
+    margin-left: -563px;
+    margin-top: 5px;
+}
+.main-satu{
+    order:4;
+}
+.main-dua{
+    order:1;
+
+}
+.main-tiga{
+    order:2;
+
+}
+.main-empat{
+    order:3;
+
+}
+
+.container-lima{
+    position: absolute;
+    width: 189px;
+    height: 100px;
+    margin: auto;
+    border: 1px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    background-color: #FFFFFF;
+    border: 1px solid #CCCED2;
+    border-radius: 8px;
+    top: 320px;
+    left: 530px;
+}
+
+.kotak-satu{
+    width: 150px;
+    color: black;
+    display: flex;
+    justify-content: flex-start;
+    margin: auto;
+    
+}
+
+.kotak-dua{
+    width: 150px;
+    color: black;
+    display: flex;
+    justify-content: flex-start;
+    margin: auto;
+    margin-top: -10px;
+}
+
+.kotak-satu .logo-satu img{
+    width: 28px;
+    margin-right: 10px;
+}
+.kotak-dua .logo-satu img{
+    width: 28px;
+    margin-right: 10px;
+}
+/* responsive */
+@media screen and (max-width: 768px) {
+    .judul1 {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 18px;
+        line-height: 50%;
+        margin-right: 20px;
+    }
+
+    .container {
+        width: 470px;
+        margin: auto;
+        height: 672px;
+        background: #FFf;
+        box-shadow: 0px 16px 90px rgba(19, 7, 52, 0.08);
+        border-radius: 12px;
+        padding-left: 40px;
+        box-sizing: border-box;
+        background-color: #FFf;
+    }
+
+    .sidebar1 {
+        display: flex;
+        justify-content: space-between;
+        margin: auto;
+        width: 400px;
+        padding-top: 10px;
+
+    }
+
+    .sidebar2,
+    .sidebar3,
+    .sidebar4,
+    .sidebar5 {
+        width: 400px;
+        margin: auto;
+    }
+        .footbar {
+            border-top: 1px solid black;
+            margin-top: -230px;
+        }
+                .container-lima {
+        position: absolute;
+        width: 100px;
+        height: 50px;
+        margin: auto;
+        border: 1px solid black;
+        display: flex;
+        flex-wrap: wrap;
+        padding: 10px;
+        background-color: #FFFFFF;
+        border: 1px solid #CCCED2;
+        border-radius: 8px;
+        top: 320px;
+        left: 350px;
+    }
+    .container-lima span{
+        font-family: 'poppin';
+        font-size: 12px;
+        line-height: 10px;
+        text-align: center;
+        margin-top: 10px;
+    }
+        .kotak-satu .logo-satu img {
+            width: 25px;
+            margin-right: 10px;
+            margin-bottom: 5px;
+        }
+    
+        .kotak-dua .logo-satu img {
+            width: 25px;
+            margin-right: 10px;
+            margin-top: 6px;
+        }
+
+}
